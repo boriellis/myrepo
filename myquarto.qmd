@@ -3,6 +3,7 @@ title: "myquarto.qmd"
 format: html
 editor: visual
 ---
+
 ---
 title: My Quarto Document
 format: html
@@ -12,7 +13,6 @@ This is a Quarto document. It combines text, code, and outputs like figures.
 
 Let's pretend @fig-boring was way more interesting.
 
-
 ```{r}
 #| label: fig-boring
 #| fig-cap: A boring figure
@@ -21,4 +21,5 @@ x <- -5:5
 y <- x^2
 plot(x, y, type = "l")
 ```
----
+
+------------------------------------------------------------------------
